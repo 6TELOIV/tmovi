@@ -1,5 +1,5 @@
 [package]
-name = "pong"
+name = "tmovi"
 version = "0.1.0"
 authors = ["Violet Rosenzweig"]
 edition = "2021"
@@ -17,3 +17,7 @@ debug = true
 opt-level = 3
 lto = "fat"
 debug = true
+
+[build-dependencies]
+tiled = { version = "0.12.1", default-features = false }
+quote = "1"

@@ -1,0 +1,54 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "metrometropolis.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "": {
+            "scaleInDock": 1
+        },
+        "iso.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "metrometropolis.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 224.66666666666669,
+                "y": 210.66666666666669
+            }
+        },
+        "metrometropolis.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "E:/Programming Projects/tmovi/gfx/world/backgrounds",
+    "map.height": 64,
+    "map.lastUsedFormat": "tmx",
+    "map.orientation": "3",
+    "map.tileHeight": 16,
+    "map.tileWidth": 32,
+    "map.width": 16,
+    "openFiles": [
+        "metrometropolis.tmx",
+        "metrometropolis.tsx"
+    ],
+    "project": "tmovi.tiled-project",
+    "recentFiles": [
+        "metrometropolis.tsx",
+        "metrometropolis.tmx",
+        "iso.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 32
+    }
+}

@@ -134,6 +134,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0c4b4d0bd25bd0b74681c0ad21497610ce1b7c91b1022cd21c80c6fbdd9476b0"
 
 [[package]]
+name = "base64"
+version = "0.22.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "72b3254f16251a8381aa12e40e3c4d2f0199f8c6508fbecb9d91f575e0fbb8c6"
+
+[[package]]
 name = "bilge"
 version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -344,13 +350,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "pong"
-version = "0.1.0"
-dependencies = [
- "agb",
-]
-
-[[package]]
 name = "portable-atomic"
 version = "1.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -427,6 +426,26 @@ dependencies = [
 ]
 
 [[package]]
+name = "tiled"
+version = "0.12.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "afffabdd4f2bb34ded7c7aa406fe027843e15c5489cff14df902366bc5d7a831"
+dependencies = [
+ "base64",
+ "flate2",
+ "xml-rs",
+]
+
+[[package]]
+name = "tmovi"
+version = "0.1.0"
+dependencies = [
+ "agb",
+ "quote",
+ "tiled",
+]
+
+[[package]]
 name = "ttf-parser"
 version = "0.21.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -443,6 +462,12 @@ name = "version_check"
 version = "0.9.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0b928f33d975fc6ad9f86c8f283853ad26bdd5b10b7f1542aa2fa15e2289105a"
+
+[[package]]
+name = "xml-rs"
+version = "0.8.21"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "539a77ee7c0de333dcc6da69b177380a0b81e0dacfa4f7344c465a36871ee601"
 
 [[package]]
 name = "zerocopy"
